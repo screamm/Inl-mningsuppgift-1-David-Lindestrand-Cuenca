@@ -1,7 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-
+import { FavoriteToggle } from "../components/FavoriteToggle";
+import "../index.css";
 
 
 
@@ -27,6 +28,7 @@ export const Home  = () => {
 
       return (
 
+       
         <div >
                  {!isAuthenticated && (
                   <>
@@ -35,6 +37,7 @@ export const Home  = () => {
                 )}
                 {isAuthenticated && (
                   <>
+
                      <div>
                               <input type="text" placeholder="Image Search" value={query} onChange={(e) => setQuery(e.target.value)} />
                               <button onClick={handleSearch}>Sök</button>
@@ -44,6 +47,7 @@ export const Home  = () => {
                                     <li key={result.link}>
                                       <a href={result.link} target="_blank" rel="noopener noreferrer">
                                         <img src={result.image.thumbnailLink} alt={result.title} />
+                                      <FavoriteToggle />
                                       </a>
                                     </li>
                                   ))}
