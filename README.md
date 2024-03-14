@@ -8,6 +8,9 @@
   Fullstack application integrating Google Custom Search for images and Auth0 authentification
 
 </h3>
+<br>
+
+<br>
 
 
 Installation Process
@@ -21,7 +24,8 @@ CLIENT INSTALL
 - "npm run dev" to start frontend
   
 <br>
-SERVER INSTALL - Node.js
+
+SERVER INSTALL
 - cd Server (from root)
 - npm install
 - nodemon start
