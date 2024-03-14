@@ -4,20 +4,24 @@
 
 
 
+<h3 align="center">
+  Fullstack application integrating Google Custom Search for images and Auth0 authentification
 
-Fullstack application integrating Google Custom Search for images and Auth0 authentification
+</h3>
 
 
 Installation Process
-
+<br>
 - Clone Repository
+<br>
 
-  CLIENT INSTALL
+CLIENT INSTALL
 - cd Client (from root)
 - run terminal command "npm install"
 - "npm run dev" to start frontend
+  
 <br>
-- SERVER INSTALL - Node.js
+SERVER INSTALL - Node.js
 - cd Server (from root)
 - npm install
 - nodemon start
@@ -26,8 +30,7 @@ Installation Process
 Features:
 Auth0 authentification
 Google Custom Search - limited to 10x images per search
-Save favorites
-
+Save favorite images data to JSON file on backend Node.js
 
 <br>
 <br>
