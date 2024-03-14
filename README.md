@@ -1,4 +1,10 @@
-Donkey Kong Image Search
+<p align="center">
+  <img src="https://github.com/screamm/Inl-mningsuppgift-1-David-Lindestrand-Cuenca/blob/main/monkey%20search%20gif.gif?raw=true" alt="my banner">
+</p>
+
+
+
+Monkey Search
 
 Fullstack application integrating Google Custom Search and Auth0
 
@@ -25,10 +31,6 @@ Save favorites
 
 
 
-
-<p align="center">
-  <img src="https://github.com/screamm/Inl-mningsuppgift-1-David-Lindestrand-Cuenca/blob/main/monkey%20search%20gif.gif?raw=true" alt="my banner">
-</p>
 
 <h3 align="center">
 Hi there, I'm <a href="https://www.yushi.dev/" target="_blank" rel="noreferrer">Yu</a> 👋
