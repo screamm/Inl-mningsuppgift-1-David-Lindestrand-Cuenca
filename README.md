@@ -26,9 +26,8 @@ Save favorites
 
 
 
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/75753187/123350185-74ce0900-d528-11eb-848d-d92955dbb944.png" alt="my banner">
+  <img src="https://github.com/screamm/Inl-mningsuppgift-1-David-Lindestrand-Cuenca/blob/main/monkey%20search%20gif.gif?raw=true" alt="my banner">
 </p>
 
 <h3 align="center">
