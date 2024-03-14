@@ -34,8 +34,8 @@ SERVER INSTALL
 <br>
 Features
 - Auth0 authentification
-- Google Custom Search - limited to 10x images per search
-- Save favorite images data to JSON file on backend Node.js
+- Google Custom Search limited to 10x images per search
+- Save favorite images data to JSON file on backend Node
 
 <br>
 <br>
