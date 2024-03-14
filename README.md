@@ -66,7 +66,7 @@ I love the entire process of developing creative websites.
 
 ## 💼 Technical Skills
 
-  <img src="https://raw.githubusercontent.com/screamm/MonkeySearch/main/Fullstack%20Screamm%20Dark%20bg.png" alt="screamm fullstack web developer stack logos">
+  <img src="https://raw.githubusercontent.com/screamm/MonkeySearch/main/Fullstack%20web%20Screamm%20Dark%20bg.png" alt="screamm fullstack web developer stack logos">
 
 
 <br>
