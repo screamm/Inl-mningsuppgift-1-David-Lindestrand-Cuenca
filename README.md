@@ -62,11 +62,11 @@ I love the entire process of developing creative websites.
 ![](https://img.shields.io/badge/Code-Redux-informational?style=flat&logo=Redux&color=764ABC)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&color=F7DF1E)
 
+<br>
 
 ## 📈 GitHub Stats 
-
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=yushi1007)](https://github.com/yushi1007)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=screamm&layout=compact)](https://github.com/screamm)
 
 
+<br>
