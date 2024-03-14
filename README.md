@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/screamm/Inl-mningsuppgift-1-David-Lindestrand-Cuenca/main/monkey%20search.gif" alt="monkey search banner">
 </p>
 
+<br>
 
 
 <h3 align="center">
@@ -31,11 +32,12 @@ SERVER INSTALL
 - nodemon start
 
 <br>
-Features:
-Auth0 authentification
-Google Custom Search - limited to 10x images per search
-Save favorite images data to JSON file on backend Node.js
+Features
+- Auth0 authentification
+- Google Custom Search - limited to 10x images per search
+- Save favorite images data to JSON file on backend Node.js
 
+<br>
 <br>
 <br>
 <br>
