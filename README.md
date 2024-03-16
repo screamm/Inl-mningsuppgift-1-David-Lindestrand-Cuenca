@@ -54,8 +54,7 @@ I love the entire process of developing creative websites.
 
 
 <br>
- 🌱 I'm currently learning
-![image](https://github.com/screamm/MonkeySearch/assets/15893543/86489c1d-c26a-426e-8264-4860008bdf2b)
+👨‍🎓 I'm currently learning 📚
 
 - React Typescript
 - REST API
