@@ -41,8 +41,11 @@ Features
 - Save favorite images data to JSON file on backend Node
   
 <br>
+
 ***
-##API Endpoints
+
+<h2>API Endpoints</h2>
+
 POST /users: Add
 GET /users/:userId/favorites:
 DELETE /users/favorites:
