@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import { router } from "./Router";
 import { Auth0Provider } from '@auth0/auth0-react';
 import "./index.css";
-import { SecretMonkey } from "./context/secretmonkey";
 
 
     ReactDOM.createRoot(document.getElementById("root")!).render(
