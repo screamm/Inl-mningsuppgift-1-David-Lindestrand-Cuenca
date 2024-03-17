@@ -13,7 +13,6 @@
 
 <br>
 
-***
 <h2>Installation</h2>
 <br>
 - Clone Repository
@@ -32,8 +31,6 @@ SERVER INSTALL
 - nodemon start
 
 <br>
-
-***
 
 Features
 - Auth0 authentification
