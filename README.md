@@ -32,7 +32,7 @@ SERVER INSTALL
 
 <br>
 
-Features
+<h2>Features</h2>
 - Auth0 authentification
 - Google Custom Search limited to 10x images per search
 - Save favorite images data to JSON file on backend Node
