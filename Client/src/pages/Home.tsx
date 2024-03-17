@@ -31,11 +31,11 @@ export const Home = () => {
     }
   };
 
-  const handleSaveFavorite = async (imageData) => {
+  const handleSaveFavorite = async (imageData: { title:string, link:string, image:{byteSize:number}  } ) => {
     if (!user) return;
     const { title, link, image } = imageData; 
     const byteSize = image ? image.byteSize : 0;
-    await saveFavoriteImage({ title, link, byteSize }, user.sub);
+    await saveFavoriteImage({ title, link, byteSize }, user.sub ?? '');
   };
 
   if (isLoading) {
@@ -46,6 +46,7 @@ export const Home = () => {
     return <div>Oops...we messed up {error && error.message}</div>;
   }
 
+  
   return (
     <div className=" ">
       {!isAuthenticated && (
@@ -90,9 +91,9 @@ export const Home = () => {
 
           {results.length > 0 && (
             <ul className="flex flex-wrap p-6 pl-40 pr-40 items-center justify-between">
-              {results.map((result) => (
+              {results.map((result: { link: string; title: string }) => (
                 <li className="" key={result.link}>
-                  <button className="border-2 border-rose-800 rounded-md bg-pinkmonkey w-20 text-base text-white" onClick={() => handleSaveFavorite(result)}>Save</button>
+                  <button className="border-2 border-rose-800 rounded-md bg-pinkmonkey w-20 text-base text-white" onClick={() => handleSaveFavorite({ ...result, image: { byteSize: 0 } })}>Save</button>
                   <img src={result.link} alt={result.title} className="w-96 mr-10 "/>
                 </li>
               ))}

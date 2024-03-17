@@ -14,6 +14,7 @@ const saveFavoriteImage = async (image: Image, userId: string) => {
     byteSize: image.byteSize,
   };
 
+
   try {
     const response = await axios.post("http://localhost:3000/users", {
       userId,
@@ -21,18 +22,19 @@ const saveFavoriteImage = async (image: Image, userId: string) => {
     });
 
     console.log("Client/Favorite saved successfully:", response.data);
-  } catch (error: any) {
+  } 
+  
+  catch (error: unknown) {
     console.error(
       "Client/Error saving favorites:",
-      error.response ? error.response.data : error
+      error instanceof Error ? error.message : error
     );
   }
 
   return (
     <>
       <div>
-        {/* <p>BILD SPARAD</p> */}
-       {/* <IconCheckboxes imageData={result} /> */}
+ 
 
       </div>
     </>
