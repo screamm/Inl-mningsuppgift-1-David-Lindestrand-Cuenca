@@ -39,8 +39,6 @@ Features
   
 <br>
 
-***
-
 <h2>API Endpoints</h2>
 
 POST /users: Add
