@@ -1,0 +1,57 @@
+[
+  {
+    "userId": "exampleID",
+    "favorites": [
+      {
+        "title": "picture1",
+        "byteSize": 1000,
+        "link": "https://www.google.com"
+      }
+    ]
+  },
+  {
+    "userId": "github|15893543",
+    "favorites": [
+      {
+        "title": "Cat | Breeds, Origins, History, Body Types, Senses, Behavior ...",
+        "link": "https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg",
+        "byteSize": 240851
+      },
+      {
+        "title": "Dog Born with Crooked Face Named Picasso Finds Home with Rescuer",
+        "link": "https://people.com/thmb/pX_6cwzhf7ofzK7SiAewtmcKvhc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(646x129:648x131)/dog-born-with-crooked-face-112823-1-e303fbe5c5674ae28b69ab3521bb64c2.jpg",
+        "byteSize": 135894
+      },
+      {
+        "title": "A Cat's Personality - FOUR PAWS International - Animal Welfare ...",
+        "link": "https://media.4-paws.org/5/b/8/b/5b8bca3f74342210ccca652c651f2d7e23288753/VIER%20PFOTEN_2019-12-13_209-2890x2000.jpg",
+        "byteSize": 542435
+      },
+      {
+        "title": "Outdoors: Praying mantis a beneficial creature to have in backyard ...",
+        "link": "https://ca-times.brightspotcdn.com/dims4/default/29ac3fb/2147483647/strip/true/crop/1903x2313+0+0/resize/1200x1459!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fcb%2F2b%2F15537d8d42e2a28b95db824e476e%2Fpraying-mantis-headshot-2.jpg",
+        "byteSize": 106495
+      },
+      {
+        "title": "Boreal Owl Identification, All About Birds, Cornell Lab of Ornithology",
+        "link": "https://www.allaboutbirds.org/guide/assets/photo/70095811-480px.jpg",
+        "byteSize": 22796
+      },
+      {
+        "title": "Cat World | Best Friends Animal Society - Save Them All",
+        "link": "https://bestfriends.org/sites/default/files/styles/hero_mobile/public/hero-dash/Asana3808_Dashboard_Standard.jpg?h=ebad9ecf&itok=cWevo33k",
+        "byteSize": 75489
+      }
+    ]
+  },
+  {
+    "userId": "google-oauth2|104006153897492642341",
+    "favorites": [
+      {
+        "title": "Dog Breeds - Types Of Dogs - American Kennel Club",
+        "link": "https://www.akc.org/wp-content/uploads/2017/11/Harrier3.jpg",
+        "byteSize": 25478
+      }
+    ]
+  }
+]

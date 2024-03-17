@@ -1,14 +1,13 @@
 import React from "react";
 import { RouterProvider } from "react-router-dom";
-import { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom/client";
 import { router } from "./Router";
 import { Auth0Provider } from '@auth0/auth0-react';
-import './index.css';
+import "./index.css";
+import { SecretMonkey } from "./context/secretmonkey";
 
-const rootElement = document.getElementById("root");
 
-if (rootElement) {
-  createRoot(rootElement).render(
+    ReactDOM.createRoot(document.getElementById("root")!).render(
 
     <React.StrictMode>
 
@@ -18,11 +17,9 @@ if (rootElement) {
       authorizationParams={{
         redirect_uri: window.location.origin
       }}>
-
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider  router={router}></RouterProvider>
     </Auth0Provider>
+
   </React.StrictMode>
       );
-} else {
-  console.error("Element with id 'root' not found");
-}
+      
