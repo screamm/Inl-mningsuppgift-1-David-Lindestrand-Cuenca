@@ -13,8 +13,7 @@
 
 <br>
 
-
-Installation Process
+<h2>Installation</h2>
 <br>
 - Clone Repository
 <br>
@@ -33,11 +32,22 @@ SERVER INSTALL
 
 <br>
 
-Features
+<h2>Features</h2>
 - Auth0 authentification
 - Google Custom Search limited to 10x images per search
 - Save favorite images data to JSON file on backend Node
   
+<br>
+<br>
+<br>
+
+<h2>API Endpoints</h2>
+
+POST /users: Add
+GET /users/:userId/favorites:
+DELETE /users/favorites:
+
+
 <br>
 <br>
 <br>
