@@ -39,6 +39,7 @@ SERVER INSTALL
   
 <br>
 <br>
+<br>
 
 <h2>API Endpoints</h2>
 
@@ -47,6 +48,7 @@ GET /users/:userId/favorites:
 DELETE /users/favorites:
 
 
+<br>
 <br>
 <br>
 
