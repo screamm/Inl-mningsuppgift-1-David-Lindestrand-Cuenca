@@ -14,7 +14,7 @@
 <br>
 
 ***
-##Installation
+<h2>Installation</h2>
 <br>
 - Clone Repository
 <br>
@@ -32,7 +32,9 @@ SERVER INSTALL
 - nodemon start
 
 <br>
+
 ***
+
 Features
 - Auth0 authentification
 - Google Custom Search limited to 10x images per search
