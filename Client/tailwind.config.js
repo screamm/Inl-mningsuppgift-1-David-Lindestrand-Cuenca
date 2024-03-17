@@ -6,7 +6,29 @@ export default {
   
   ],  
   theme: {
-    extend: {},
+
+
+    extend: {
+
+      colors: {
+        pinkmonkey: "#ff0068",
+           
+        },
+
+
+    },
   },
+
+
+
   plugins: [],
 }
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@ export const Layout = () => {
   return (
     <>
     <div className="min-h-screen bg-[#ede3dd] ">
-      <header className=" bg-yellow-950 fixed w-full top-0">
+      <header className=" bg-yellow-950 fixed w-full top-0 z-10 ">
         <Navigation  />
       </header>
       

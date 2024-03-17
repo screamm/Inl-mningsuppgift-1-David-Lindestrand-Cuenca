@@ -17,7 +17,7 @@ const
       }
 
     return (
-        <nav className="w-full border h-16 ">
+        <nav className="w-full h-16 bg-yellow-950 fixed top-0 z-10">
             <ul className=" flex pt-4 justify-center ">
                 <li className="">
                     <NavLink className="text-3xl text-white	 " to="/">Search</NavLink>

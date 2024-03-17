@@ -1,6 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import FavoriteImages from "../components/GetFavorites";
 import favotext from "../graphics/Favorites monkey.png";
+import loginmonkey from "../graphics/Monkey login favorites.svg";
 
 
 
@@ -15,7 +16,8 @@ export const Favorites = () => {
     <div className="hiddenSearch">
       {!isAuthenticated && (
         <>
-         <span className="text-5xl flex justify-center mt-40 ">LOGIN TO SHOW FAVORITE IMAGES</span>
+         {/* <span className="text-5xl flex justify-center mt-40 text-pinkmonkey">LOGIN TO SHOW FAVORITE IMAGES</span> */}
+         <img src={loginmonkey} alt="" />
         </>
       )}
       {isAuthenticated && (

@@ -1,10 +1,8 @@
-
 const express = require("express");
 const fs = require("fs/promises");
 const cors = require("cors");
 const { addFavoriteSchema } = require("./schemas/addFavorite");
 const joi = require("joi");
-
 
 const app = express();
 const port = 3000;

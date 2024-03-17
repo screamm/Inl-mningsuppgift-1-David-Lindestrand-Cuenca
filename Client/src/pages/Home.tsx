@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import saveFavoriteImage from "../components/IconCheckboxes";
 import logo from "../graphics/monkey search logo.png";
+import loginmonkey from "../graphics/Monkey search login.svg";
+
 import "../index.css";
 
 export const Home = () => {
@@ -45,9 +47,10 @@ export const Home = () => {
   }
 
   return (
-    <div>
+    <div className=" ">
       {!isAuthenticated && (
-        <span className=" text-5xl flex justify-center  mt-40 ">LOGIN TO SEARCH</span>         
+      // <h1 className=" text-5xl flex justify-center mt-40 text-pinkmonkey">LOGIN TO SEARCH</h1>     
+      <img src={loginmonkey} alt="" />    
       )}
       
       {isAuthenticated && (
@@ -89,7 +92,7 @@ export const Home = () => {
             <ul className="flex flex-wrap p-6 pl-40 pr-40 items-center justify-between">
               {results.map((result) => (
                 <li className="" key={result.link}>
-                  <button onClick={() => handleSaveFavorite(result)}> SPARA</button>
+                  <button className="border-2 border-rose-800 rounded-md bg-pinkmonkey w-20 text-base text-white" onClick={() => handleSaveFavorite(result)}>Save</button>
                   <img src={result.link} alt={result.title} className="w-96 mr-10 "/>
                 </li>
               ))}

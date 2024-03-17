@@ -54,7 +54,7 @@ const FavoriteImages = () => {
     };
 
     fetchData();
-  }, [user?.sub]);
+  }, [user, user?.sub]);
 
   return (
     <div>
@@ -65,8 +65,10 @@ const FavoriteImages = () => {
 
       <div className="flex flex-wrap p-6 pl-40 pr-40 items-center justify-between">
         {favoriteImages.map((image, index) => (
-          <div key={index} className="">
-            <button onClick={() => handleRemoveFavorite(image.link)}>Delete</button>
+          <div key={index} >
+            <div >
+            <button className='border-2 border-rose-800 rounded-md bg-pinkmonkey w-20 text-base text-white ' onClick={() => handleRemoveFavorite(image.link)} >Delete</button>
+            </div>
             <img src={image.link} alt={image.title} className=" w-96 mr-10  " />
 
 
