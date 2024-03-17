@@ -38,6 +38,7 @@ SERVER INSTALL
 - Save favorite images data to JSON file on backend Node
   
 <br>
+<br>
 
 <h2>API Endpoints</h2>
 
