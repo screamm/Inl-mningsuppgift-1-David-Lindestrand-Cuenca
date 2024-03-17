@@ -31,7 +31,7 @@ const saveFavoriteImage = async (image: Image, userId: string) => {
   return (
     <>
       <div>
-        <p>BILD SPARAD</p>
+        {/* <p>BILD SPARAD</p> */}
        {/* <IconCheckboxes imageData={result} /> */}
 
       </div>

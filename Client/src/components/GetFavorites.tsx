@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios, { isAxiosError } from 'axios';
 import { useAuth0 } from '@auth0/auth0-react';
-
-
 
 
 const FavoriteImages = () => {
@@ -15,6 +13,12 @@ const FavoriteImages = () => {
 
 
     const handleRemoveFavorite = async (imageUrl: string) => {
+
+
+      type errorType = {
+        thisIsANumber: number;
+      };
+
       try {
         const response = await axios({
           method: 'delete',
@@ -26,12 +30,20 @@ const FavoriteImages = () => {
         });
         console.log("Favorite image removed successfully:", response.data);
         setFavoriteImages(prevImages => prevImages.filter((image) => image.link !== imageUrl));
-      } catch (error: any) {
-        console.error("There was a problem removing the favorite image:", error.response ? error.response.data : error);
+
       }
-  };
+                  
+      catch (error: unknown) {
 
+        if (isAxiosError<errorType>(error)) {
+        console.log(
+          "There was a problem with the axios operation:",
+          error.response ? error.response.data.thisIsANumber : error
 
+        );
+      }
+    }
+  }
 
 
 
@@ -41,18 +53,34 @@ const FavoriteImages = () => {
     const userId = user.sub;
     const url = `http://localhost:3000/users/${userId}/favorites`;
 
+
+
     const fetchData = async () => {
+
+
+      type errorType = {
+        thisIsANumber: number;
+      };
+
+
       try {
         const response = await axios.get(url);
         setFavoriteImages(response.data);
-      } catch (error: any) {
-        console.error(
+      } 
+      
+      
+      catch (error: unknown) {
+
+        if (isAxiosError<errorType>(error)) {
+        console.log(
           "There was a problem with the axios operation:",
-          error.response ? error.response.data : error
+          error.response ? error.response.data.thisIsANumber : error
+
         );
       }
-    };
-
+    }
+  }
+  
     fetchData();
   }, [user, user?.sub]);
 
