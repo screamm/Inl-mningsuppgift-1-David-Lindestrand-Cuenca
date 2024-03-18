@@ -13,29 +13,32 @@
 
 <br>
 
-<h2>Installation</h2>
-<br>
-- Clone Repository
-<br>
-
-CLIENT INSTALL
-- cd Client (from root)
-- run terminal command "npm install"
-- "npm run dev" to start frontend
-  
-<br>
-
-SERVER INSTALL
-- cd Server (from root)
-- npm install
-- nodemon start
-
 <br>
 
 <h2>Features</h2>
 - Auth0 authentification
 - Google Custom Search limited to 10x images per search
 - Save favorite images data to JSON file on backend Node
+
+
+<h2>Installation</h2>
+<br>
+- Clone Repository
+<br>
+
+Install node.js
+<br>
+Navigate to folder "./Client
+- In terminal run <code>npm install</code>
+- After installations has finished, run <code>npm run dev</code> to start the react app
+
+Navigate to folder "./Server
+ - In terminal run <code>npm install</code>
+ - After installations has finished, run <code>nodemon server</code> to start the node.js server
+
+In your webbrowser of choice, navigate to <a href="http://localhost:5173">http://localhost:5173</a>
+
+
   
 <br>
 <br>
