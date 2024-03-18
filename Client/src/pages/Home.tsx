@@ -50,7 +50,8 @@ export const Home = () => {
   return (
     <div className=" ">
       {!isAuthenticated && (
-      // <h1 className=" text-5xl flex justify-center mt-40 text-pinkmonkey">LOGIN TO SEARCH</h1>     
+      
+      
       <img src={loginmonkey} alt="" />    
       )}
       
