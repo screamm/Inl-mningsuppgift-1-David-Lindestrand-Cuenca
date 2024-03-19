@@ -51,16 +51,15 @@ In your webbrowser of choice, navigate to <a href="http://localhost:5173">http:/
 
 <h2>API Endpoints</h2>
 
-<code>POST/users: Add</code>
+- <code>POST/users: </code>
 <br>
-<code>GET/users/:userId/favorites:</code>
+- <code>GET/users/:userId/favorites:</code>
 <br>
-<code>DELETE/users/favorites:</code>
+- <code>DELETE/users/favorites:</code>
+  
+<br>
+<br>
 
-
-<br>
-<br>
-<br>
 
 <h3 align="center">
 Hi there, I'm Screamm 👋
