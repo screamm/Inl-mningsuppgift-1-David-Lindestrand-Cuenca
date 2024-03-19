@@ -13,26 +13,6 @@
     "userId": "github|15893543",
     "favorites": [
       {
-        "title": "Dog Born with Crooked Face Named Picasso Finds Home with Rescuer",
-        "link": "https://people.com/thmb/pX_6cwzhf7ofzK7SiAewtmcKvhc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(646x129:648x131)/dog-born-with-crooked-face-112823-1-e303fbe5c5674ae28b69ab3521bb64c2.jpg",
-        "byteSize": 135894
-      },
-      {
-        "title": "A Cat's Personality - FOUR PAWS International - Animal Welfare ...",
-        "link": "https://media.4-paws.org/5/b/8/b/5b8bca3f74342210ccca652c651f2d7e23288753/VIER%20PFOTEN_2019-12-13_209-2890x2000.jpg",
-        "byteSize": 542435
-      },
-      {
-        "title": "Outdoors: Praying mantis a beneficial creature to have in backyard ...",
-        "link": "https://ca-times.brightspotcdn.com/dims4/default/29ac3fb/2147483647/strip/true/crop/1903x2313+0+0/resize/1200x1459!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fcb%2F2b%2F15537d8d42e2a28b95db824e476e%2Fpraying-mantis-headshot-2.jpg",
-        "byteSize": 106495
-      },
-      {
-        "title": "Cat World | Best Friends Animal Society - Save Them All",
-        "link": "https://bestfriends.org/sites/default/files/styles/hero_mobile/public/hero-dash/Asana3808_Dashboard_Standard.jpg?h=ebad9ecf&itok=cWevo33k",
-        "byteSize": 75489
-      },
-      {
         "title": "Drill Monkeys Facts",
         "link": "https://i.natgeofe.com/n/82fddbcc-4cbb-4373-bf72-dbc30068be60/drill-monkey-01_3x2.jpg",
         "byteSize": 1358467
@@ -55,6 +35,11 @@
       {
         "title": "Panda Diplomacy: Exit of DC's beloved bears may signal China pullback",
         "link": "https://www.federaltimes.com/resizer/ZWQN-ydAqLYH1aS4pMJAjfIDH0I=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/KGDZ7I4VPZEB7OX2KWTUDK5OC4.jpg",
+        "byteSize": 0
+      },
+      {
+        "title": "Cats Prey on More Than 2,000 Different Species | Smart News ...",
+        "link": "https://th-thumbnailer.cdn-si-edu.com/cV-x94ZPjcxmGY9-T4l0Dh75Gig=/1000x750/filters:no_upscale():focal(960x640:961x641)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f6/f3/f6f3493a-467f-4474-8c52-af5d021414b6/cat-5778777_1920.jpg",
         "byteSize": 0
       }
     ]
