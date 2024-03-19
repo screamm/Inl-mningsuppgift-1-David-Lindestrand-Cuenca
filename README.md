@@ -24,13 +24,18 @@
 
 <h2>Installation</h2>
 <br>
+<br>
 Clone Repository
+<br>
 <br>
 Install node.js
 <br>
+
 Navigate to folder "./Client
 - In terminal run <code>npm install</code>
+
 - After installations has finished, run <code>npm run dev</code> to start the react app
+
 
 Navigate to folder "./Server
  - In terminal run <code>npm install</code>
