@@ -24,9 +24,8 @@
 
 <h2>Installation</h2>
 <br>
-- Clone Repository
+Clone Repository
 <br>
-
 Install node.js
 <br>
 Navigate to folder "./Client
