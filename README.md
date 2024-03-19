@@ -30,12 +30,13 @@ Clone Repository
 <br>
 Install node.js
 <br>
+<br>
 
 Navigate to folder "./Client
 - In terminal run <code>npm install</code>
 
 - After installations has finished, run <code>npm run dev</code> to start the react app
-
+<br>
 
 Navigate to folder "./Server
  - In terminal run <code>npm install</code>
@@ -47,12 +48,13 @@ In your webbrowser of choice, navigate to <a href="http://localhost:5173">http:/
   
 <br>
 <br>
-<br>
 
 <h2>API Endpoints</h2>
 
 POST /users: Add
+<br>
 GET /users/:userId/favorites:
+<br>
 DELETE /users/favorites:
 
 
