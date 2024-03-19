@@ -31,11 +31,13 @@ Clone Repository
 Install node.js
 <br>
 <br>
+<br>
 
 Navigate to folder "./Client
 - In terminal run <code>npm install</code>
 
 - After installations has finished, run <code>npm run dev</code> to start the react app
+<br>
 <br>
 
 Navigate to folder "./Server
