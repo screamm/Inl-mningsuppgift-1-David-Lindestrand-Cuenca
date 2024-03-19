@@ -13,24 +13,32 @@
 
 <br>
 
-<br>
 
 <h2>Features</h2>
+
 - Auth0 authentification
 - Google Custom Search limited to 10x images per search
-- Save favorite images data to JSON file on backend Node
+- Save favorite images data to JSON file
 
+<br>
 
 <h2>Installation</h2>
 <br>
-- Clone Repository
 <br>
-
+Clone Repository
+<br>
+<br>
 Install node.js
 <br>
+<br>
+<br>
+
 Navigate to folder "./Client
 - In terminal run <code>npm install</code>
+
 - After installations has finished, run <code>npm run dev</code> to start the react app
+<br>
+<br>
 
 Navigate to folder "./Server
  - In terminal run <code>npm install</code>
@@ -42,18 +50,16 @@ In your webbrowser of choice, navigate to <a href="http://localhost:5173">http:/
   
 <br>
 <br>
-<br>
 
 <h2>API Endpoints</h2>
 
-POST /users: Add
-GET /users/:userId/favorites:
-DELETE /users/favorites:
+- <code>POST/users: </code>
+- <code>GET/users/:userId/favorites:</code>
+- <code>DELETE/users/favorites:</code>
 
+<br>
+<br>
 
-<br>
-<br>
-<br>
 
 <h3 align="center">
 Hi there, I'm Screamm 👋
